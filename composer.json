@@ -20,12 +20,18 @@
             "email": "ron@fleetbase.io"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/atomizedev/core-api"
+        }
+    ],
     "require": {
         "php": "^7.4|^8.0",
         "barryvdh/laravel-dompdf": "^2.0",
         "brick/geo": "0.7.2",
         "cknow/laravel-money": "^7.1",
-        "fleetbase/core-api": "^1.2.9",
+        "atomizedev/core-api": "dev-main",
         "geocoder-php/google-maps-places-provider": "^1.4",
         "giggsey/libphonenumber-for-php": "^8.13",
         "league/geotools": "^1.1.0",
