@@ -1,5 +1,5 @@
 {
-    "name": "fleetbase/fleetops-api",
+    "name": "fastlane/fleetops-api",
     "version": "1.1.6",
     "description": "FleetOps TMS and Last-Mile Operations System",
     "keywords": [
@@ -22,7 +22,7 @@
     ],
     "repositories": [
         {
-            "type": "vcs",
+            "type": "git",
             "url": "https://github.com/atomizedev/core-api"
         }
     ],
